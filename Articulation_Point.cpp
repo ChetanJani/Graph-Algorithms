@@ -61,7 +61,7 @@ int main()
                 ap[i]=1;
             }
             if(i==1){
-                // because root of tree can only be AP when there is more than 1 children ans they are note connected to each other else ap[root]=0;
+                // because root of tree can only be AP when there is more than 1 children and they are not connected to each other else ap[root]=0;
                 if(children>1) ap[i]=1;
                 else ap[i]=0;
             }
